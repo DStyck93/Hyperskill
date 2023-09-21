@@ -7,10 +7,9 @@ public class Main {
 
         // Create empty grid
         char[][] grid = new char[3][3];
-        // WARNING!!! x,y values are swapped for this assignment
         for (int x = 0; x < 3; x ++) {
             for (int y = 0; y < 3; y++) {
-                grid[y][x] = ' ';
+                grid[x][y] = ' ';
             }
         }
 
@@ -24,7 +23,6 @@ public class Main {
         while(!isOver) {
 
             // Prompt user to make a move
-            // WARNING!!! x and y values are swapped for this assignment
             int[] move = getMove(scanner, grid);
     
             // Update grid
