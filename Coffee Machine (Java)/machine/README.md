@@ -1,6 +1,6 @@
 # Coffee Machine (Java)
 
-How to -  
+How to:  
 1) Launch CoffeeMachine.java
 2) Follow the instuctions in the console
 
